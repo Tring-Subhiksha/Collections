@@ -106,9 +106,9 @@ for (let e of fruits1.keys()  ){
 console.log("Map method using an array")
 let arr10=arr7.map(add1);
 function add1(s){
-    console.log(s+10);
+    return u=s+10
 }
-
+console.log(u)
 //Pop the element using an array
 console.log("Pop the element using an array")
 console.log(arr7.pop())
