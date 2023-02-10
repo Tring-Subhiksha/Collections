@@ -123,19 +123,19 @@ console.log(fruits)
 //Reduce the element using an array
 console.log("Reduce the element using an array")
 let v=[1,2,3,4,5]
-v.reduce(add)
+let v2=v.reduce(add)
 function add(a,b){
    return a+b;
 }
-console.log(v)
+console.log(v2)
 
 //ReduceRight the element using an array
 console.log("ReduceRight the element using an array")
-v.reduceRight(sub)
+let v1=v.reduceRight(sub)
 function sub(a,b){
    return a-b;
 }
-console.log(v)
+console.log(v1)
 
 //Reverse the element using an array
 console.log("Reverse the element using an array")
