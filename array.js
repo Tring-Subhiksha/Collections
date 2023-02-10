@@ -174,8 +174,8 @@ console.log(fruits)
 
 //toString the element using an array
 console.log("toString the element using an array")
-fruits.toString()
-console.log(fruits)
+let tostring=fruits.toString()
+console.log(tostring)
 
 //unshift the element using an array
 console.log("unshift the element using an array")
