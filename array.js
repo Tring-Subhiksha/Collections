@@ -122,7 +122,7 @@ console.log(fruits)
 
 //Reduce the element using an array
 console.log("Reduce the element using an array")
-v=[1,2,3,4,5]
+let v=[1,2,3,4,5]
 v.reduce(add)
 function add(a,b){
    return a+b;
@@ -152,8 +152,8 @@ console.log(fruits.slice(1,3))
 
 //some method returns true or flase
 console.log("some method returns true or flase")
-arr5=v.some(checkTrueorfalse)
-function checkTrueorfalse(arr5)
+arr5=v.some(checkTrueorfalse1)
+function checkTrueorfalse1(arr5)
 {
     return arr5>2;
 }
