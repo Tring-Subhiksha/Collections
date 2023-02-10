@@ -88,8 +88,8 @@ console.log(vegetables.join())
 //Keys method using an array
 console.log("Keys method using an array")
 let d="";
-let fruits=["Apples","Banana","Cherry","Orange"]
-for (let e of fruits.keys()  ){
+let fruits1=["Apples","Banana","Cherry","Orange"]
+for (let e of fruits1.keys()  ){
     console.log(e)
 }
   //lastIndexOf method using an array
