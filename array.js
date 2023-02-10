@@ -139,7 +139,8 @@ console.log(v1)
 
 //Reverse the element using an array
 console.log("Reverse the element using an array")
-console.log(v.reverse())
+let v3=v.reverse()
+console.log(v3)
 
 //shift the element using an array
 console.log("Shift the element using an array")
