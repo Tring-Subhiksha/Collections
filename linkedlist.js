@@ -24,22 +24,22 @@ class LinkedList{
             }
 
         insertElementatfirst(value, index){
-            var newinsert=new Node(value)
+            let newinsert=new Node(value)
             if(index==0){
                 console.log("Insert element at beginning in the linkedlist")
-                var curr=this.rootNode
+                let curr=this.rootNode
                 newinsert.nextNode=curr
                 this.rootNode=newinsert            
             }
         }
         insertElementatmiddle(value,index)
         {
-            var newinsert=new Node(value)
+            let newinsert=new Node(value)
                 console.log("Insert element at midlle or last in the linked list")
-                var curr=this.rootNode
-                var size=0
+                let curr=this.rootNode
+                let size=0
                 while(curr!=null){
-                var prev=curr.nextNode
+                let prev=curr.nextNode
                 size++
                 
                 if(size==index){
@@ -56,7 +56,7 @@ class LinkedList{
         removeElementatfirst(index){
             if(index==0){
                 console.log("Delete element at beginning in the linkedlist")
-                var curr=this.rootNode
+                let curr=this.rootNode
                 curr=curr.nextNode
                  this.rootNode=curr     
             }
@@ -66,10 +66,10 @@ class LinkedList{
         {
             
                 console.log("Delete element at midlle or last in the linked list")
-                var curr=this.rootNode
-                var size=0
+                let curr=this.rootNode
+                let size=0
                 while(curr!=null){
-                var prev=curr.nextNode
+                let prev=curr.nextNode
                 size++
                 
                 if(size==index){
@@ -84,7 +84,7 @@ class LinkedList{
         }
         
         printElements(){
-            var temp = this.rootNode;
+            let temp = this.rootNode;
             if(temp == null){
                 console.log("Is empty!")
             }
@@ -100,7 +100,7 @@ class LinkedList{
 }
 
 
-var list = new LinkedList()
+let list = new LinkedList()
 list.addElement(1);
 list.addElement(2);
 list.addElement(3);
