@@ -1,16 +1,16 @@
 //concatenation of two array
 
-var arr1=["abc",1,2,3.4]
-var arr2=["A","B","C","D"]
-var arr3=arr1.concat(arr2)
+let arr1=["abc",1,2,3.4]
+let arr2=["A","B","C","D"]
+let arr3=arr1.concat(arr2)
 console.log("Concatenation of two array")
 console.log(arr3)
 
 //constructor using an array
-var vegetables = ["Tomato", "Cucumber", "Carrot", "Raddish"]
+let vegetables = ["Tomato", "Cucumber", "Carrot", "Raddish"]
  vegetables[2]=["Ladys finger","Cabbage"];
 
-var arr4 = vegetables.constructor
+let arr4 = vegetables.constructor
 console.log("constructor using an array")
 console.log(arr4)
 console.log(vegetables)
@@ -88,7 +88,7 @@ console.log(vegetables.join())
 //Keys method using an array
 console.log("Keys method using an array")
 let d="";
-var fruits=["Apples","Banana","Cherry","Orange"]
+let fruits=["Apples","Banana","Cherry","Orange"]
 for (let e of fruits.keys()  ){
     console.log(e)
 }
@@ -104,7 +104,7 @@ for (let e of fruits.keys()  ){
 
 //map method using an array
 console.log("Map method using an array")
-var arr10=arr7.map(add);
+let arr10=arr7.map(add);
 function add(s){
     console.log(s+10);
 }
@@ -114,7 +114,7 @@ console.log("Pop the element using an array")
 console.log(arr7.pop())
 
 //Push the element using an array
-var fruits=["apple","cherry"]
+let fruits=["apple","cherry"]
 console.log("Push the element using an array")
 fruits.push("Lemon","kiwi")
 console.log(fruits)
