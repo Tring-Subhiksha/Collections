@@ -14,7 +14,7 @@ class Queue{
                 this.rootNode= new Node(value)
                 this.count++;
             }else{
-                var temp = this.rootNode;
+                let temp = this.rootNode;
                 while(temp.nextNode != null){
                     temp = temp.nextNode;
                 }
@@ -29,14 +29,14 @@ class Queue{
 
     deleteElements(){
         console.log("Delete the elements in queue using linked list")
-        var temp=this.rootNode
+        let temp=this.rootNode
         this.rootNode=this.rootNode.nextNode
         
         console.log(temp.data)
         }
         printElements(){
             console.log("Display the elements in queue using linked list")
-            var temp = this.rootNode;
+            let temp = this.rootNode;
             if(temp == null){
                 console.log("Queue is empty!")
             }
@@ -50,7 +50,7 @@ class Queue{
         }
         }
 }
-var list=new Queue()
+let list=new Queue()
 list.addElement(1)
 list.addElement(2)
 list.addElement(3)
