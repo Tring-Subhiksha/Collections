@@ -104,8 +104,8 @@ for (let e of fruits1.keys()  ){
 
 //map method using an array
 console.log("Map method using an array")
-let arr10=arr7.map(add);
-function add(s){
+let arr10=arr7.map(add1);
+function add1(s){
     console.log(s+10);
 }
 
