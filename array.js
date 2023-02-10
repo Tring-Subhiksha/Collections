@@ -27,7 +27,7 @@ for (let a of arr1.entries()) {
 
 //Every method returns true or flase
 console.log("Every method returns true or flase")
-arr5=arr1.every(checkTrueorfalse)
+let arr5=arr1.every(checkTrueorfalse)
 function checkTrueorfalse(arr5)
 {
     return arr5>2;
@@ -47,7 +47,7 @@ console.log(a.filter(b=> b%12==0))
 //Find Method using an array
 console.log("Find Method using an array")
 let arr6=[1,7,29,89]
-b=arr6.find(checkequal)
+let b=arr6.find(checkequal)
 function checkequal(b){
     return b==29;
 }
@@ -106,9 +106,9 @@ for (let e of fruits1.keys()  ){
 console.log("Map method using an array")
 let arr10=arr7.map(add1);
 function add1(s){
-    return u=s+10;
+    return s+10;
 }
-console.log(u)
+console.log(arr10)
 //Pop the element using an array
 console.log("Pop the element using an array")
 console.log(arr7.pop())
