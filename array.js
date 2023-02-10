@@ -106,7 +106,7 @@ for (let e of fruits1.keys()  ){
 console.log("Map method using an array")
 let arr10=arr7.map(add1);
 function add1(s){
-    return u=s+10
+    return u=s+10;
 }
 console.log(u)
 //Pop the element using an array
@@ -125,17 +125,17 @@ console.log("Reduce the element using an array")
 v=[1,2,3,4,5]
 v.reduce(add)
 function add(a,b){
-   return u= a+b;
+   return a+b;
 }
-console.log(u)
+console.log(v)
 
 //ReduceRight the element using an array
 console.log("ReduceRight the element using an array")
 v.reduceRight(sub)
 function sub(a,b){
-   return u=a-b;
+   return a-b;
 }
-console.log(u)
+console.log(v)
 
 //Reverse the element using an array
 console.log("Reverse the element using an array")
