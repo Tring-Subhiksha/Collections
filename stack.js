@@ -45,7 +45,7 @@ class Stack{
        
        else{
             let p;
-        for(var i=0;i<=this.head;i++){
+        for(let i=0;i<=this.head;i++){
             p=temp
             temp=temp.nextNode        
        }
