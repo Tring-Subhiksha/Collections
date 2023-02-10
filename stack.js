@@ -63,7 +63,7 @@ class Stack{
             return 0;
         }
         else{
-        for(var i=0;i<=this.head;i++){
+        for(let i=0;i<=this.head;i++){
             console.log(temp.data)
             temp = temp.nextNode;
             
